@@ -8,6 +8,7 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan({"com.DockerChallenges.controller"})
 public class DockerChallenges {
     public static void main(String[] args) {
-        SpringApplication.run(DockerChallenges.class, args);
+        SpringApplication application = new SpringApplication(DockerChallenges.class);
+        application.run(args);
     }
 }
