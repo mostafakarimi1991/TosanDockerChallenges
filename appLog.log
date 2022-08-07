@@ -48,3 +48,322 @@
 2022-08-07 16:45:53.551 DEBUG 17316 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
 2022-08-07 16:45:54.026  INFO 17316 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8085 (http) with context path ''
 2022-08-07 16:45:54.042  INFO 17316 --- [main] com.DockerChallenges.DockerChallenges    : Started DockerChallenges in 8.887 seconds (JVM running for 10.842)
+2022-08-07 18:05:24.177  INFO 30200 --- [main] com.DockerChallenges.DockerChallenges    : Starting DockerChallenges using Java 11.0.11 on tsn-a0418 with PID 30200 (D:\Project\New\TosanDockerChallenges\target\classes started by Karimi in D:\Project\New\TosanDockerChallenges)
+2022-08-07 18:05:24.180  INFO 30200 --- [main] com.DockerChallenges.DockerChallenges    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 18:05:25.791  INFO 30200 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 18:05:25.800  INFO 30200 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 18:05:25.800  INFO 30200 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-07 18:05:25.934  INFO 30200 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 18:05:25.934  INFO 30200 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1712 ms
+2022-08-07 18:05:26.819 DEBUG 30200 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-08-07 18:05:27.188 DEBUG 30200 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-07 18:05:27.252 DEBUG 30200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-08-07 18:05:27.291 DEBUG 30200 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2022-08-07 18:05:27.311 DEBUG 30200 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-07 18:05:27.625  WARN 30200 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8080 is already in use
+2022-08-07 18:05:27.635  INFO 30200 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 18:05:27.648  INFO 30200 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 18:05:27.664 ERROR 30200 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2022-08-07 18:07:02.168  INFO 33960 --- [main] com.DockerChallenges.DockerChallenges    : Starting DockerChallenges using Java 11.0.11 on tsn-a0418 with PID 33960 (D:\Project\New\TosanDockerChallenges\target\classes started by Karimi in D:\Project\New\TosanDockerChallenges)
+2022-08-07 18:07:02.173  INFO 33960 --- [main] com.DockerChallenges.DockerChallenges    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 18:07:03.705  INFO 33960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 18:07:03.714  INFO 33960 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 18:07:03.715  INFO 33960 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-07 18:07:03.853  INFO 33960 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 18:07:03.854  INFO 33960 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1618 ms
+2022-08-07 18:07:04.704 DEBUG 33960 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-08-07 18:07:05.068 DEBUG 33960 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-07 18:07:05.120 DEBUG 33960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-08-07 18:07:05.145 DEBUG 33960 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2022-08-07 18:07:05.161 DEBUG 33960 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-07 18:07:05.476  INFO 33960 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 18:07:05.482  WARN 33960 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-08-07 18:07:06.361  INFO 33960 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 18:07:06.378  INFO 33960 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 18:07:06.399 ERROR 33960 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.18.jar:5.3.18]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.DockerChallenges.DockerChallenges.main(DockerChallenges.java:12) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1515) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.18.jar:5.3.18]
+	... 12 common frames omitted
+
+2022-08-07 18:08:17.967  INFO 25444 --- [main] com.DockerChallenges.DockerChallenges    : Starting DockerChallenges using Java 11.0.11 on tsn-a0418 with PID 25444 (D:\Project\New\TosanDockerChallenges\target\classes started by Karimi in D:\Project\New\TosanDockerChallenges)
+2022-08-07 18:08:17.972  INFO 25444 --- [main] com.DockerChallenges.DockerChallenges    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 18:08:19.564  INFO 25444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 18:08:19.573  INFO 25444 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 18:08:19.574  INFO 25444 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-07 18:08:19.716  INFO 25444 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 18:08:19.716  INFO 25444 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1680 ms
+2022-08-07 18:08:20.567 DEBUG 25444 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-08-07 18:08:20.947 DEBUG 25444 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-07 18:08:20.990 DEBUG 25444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-08-07 18:08:21.013 DEBUG 25444 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2022-08-07 18:08:21.027 DEBUG 25444 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-07 18:08:21.296  INFO 25444 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 18:08:21.300  WARN 25444 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-08-07 18:08:22.176  INFO 25444 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 18:08:22.193  INFO 25444 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 18:08:22.215 ERROR 25444 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.18.jar:5.3.18]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.DockerChallenges.DockerChallenges.main(DockerChallenges.java:13) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1515) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.18.jar:5.3.18]
+	... 12 common frames omitted
+
+2022-08-07 18:10:09.767  INFO 18636 --- [main] com.DockerChallenges.DockerChallenges    : Starting DockerChallenges using Java 11.0.11 on tsn-a0418 with PID 18636 (D:\Project\New\TosanDockerChallenges\target\classes started by Karimi in D:\Project\New\TosanDockerChallenges)
+2022-08-07 18:10:09.771  INFO 18636 --- [main] com.DockerChallenges.DockerChallenges    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 18:10:11.373  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 18:10:11.382  INFO 18636 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 18:10:11.382  INFO 18636 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-07 18:10:11.519  INFO 18636 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 18:10:11.520  INFO 18636 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1687 ms
+2022-08-07 18:10:12.357 DEBUG 18636 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-08-07 18:10:12.713 DEBUG 18636 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-07 18:10:12.757 DEBUG 18636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-08-07 18:10:12.780 DEBUG 18636 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2022-08-07 18:10:12.794 DEBUG 18636 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-07 18:10:13.056  INFO 18636 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 18:10:13.061  WARN 18636 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+2022-08-07 18:10:13.899  INFO 18636 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-08-07 18:10:13.917  INFO 18636 --- [main] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2022-08-07 18:10:13.943 ERROR 18636 --- [main] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.context.ApplicationContextException: Failed to start bean 'documentationPluginsBootstrapper'; nested exception is java.lang.NullPointerException
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:181) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.access$200(DefaultLifecycleProcessor.java:54) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor$LifecycleGroup.start(DefaultLifecycleProcessor.java:356) ~[spring-context-5.3.18.jar:5.3.18]
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75) ~[na:na]
+	at org.springframework.context.support.DefaultLifecycleProcessor.startBeans(DefaultLifecycleProcessor.java:155) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.DefaultLifecycleProcessor.onRefresh(DefaultLifecycleProcessor.java:123) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:935) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:586) ~[spring-context-5.3.18.jar:5.3.18]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:740) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:415) ~[spring-boot-2.6.6.jar:2.6.6]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303) ~[spring-boot-2.6.6.jar:2.6.6]
+	at com.DockerChallenges.DockerChallenges.main(DockerChallenges.java:13) ~[classes/:na]
+Caused by: java.lang.NullPointerException: null
+	at springfox.documentation.spring.web.WebMvcPatternsRequestConditionWrapper.getPatterns(WebMvcPatternsRequestConditionWrapper.java:56) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at springfox.documentation.RequestHandler.sortedPaths(RequestHandler.java:113) ~[springfox-core-3.0.0.jar:3.0.0]
+	at springfox.documentation.spi.service.contexts.Orderings.lambda$byPatternsCondition$3(Orderings.java:89) ~[springfox-spi-3.0.0.jar:3.0.0]
+	at java.base/java.util.Comparator.lambda$comparing$77a9974f$1(Comparator.java:469) ~[na:na]
+	at java.base/java.util.TimSort.countRunAndMakeAscending(TimSort.java:355) ~[na:na]
+	at java.base/java.util.TimSort.sort(TimSort.java:220) ~[na:na]
+	at java.base/java.util.Arrays.sort(Arrays.java:1515) ~[na:na]
+	at java.base/java.util.ArrayList.sort(ArrayList.java:1750) ~[na:na]
+	at java.base/java.util.stream.SortedOps$RefSortingSink.end(SortedOps.java:392) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.Sink$ChainedReference.end(Sink.java:258) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.WebMvcRequestHandlerProvider.requestHandlers(WebMvcRequestHandlerProvider.java:81) ~[springfox-spring-webmvc-3.0.0.jar:3.0.0]
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195) ~[na:na]
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1655) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) ~[na:na]
+	at java.base/java.util.stream.ReduceOps$ReduceOp.evaluateSequential(ReduceOps.java:913) ~[na:na]
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234) ~[na:na]
+	at java.base/java.util.stream.ReferencePipeline.collect(ReferencePipeline.java:578) ~[na:na]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.withDefaults(AbstractDocumentationPluginsBootstrapper.java:107) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.buildContext(AbstractDocumentationPluginsBootstrapper.java:91) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.AbstractDocumentationPluginsBootstrapper.bootstrapDocumentationPlugins(AbstractDocumentationPluginsBootstrapper.java:82) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper.start(DocumentationPluginsBootstrapper.java:100) ~[springfox-spring-web-3.0.0.jar:3.0.0]
+	at org.springframework.context.support.DefaultLifecycleProcessor.doStart(DefaultLifecycleProcessor.java:178) ~[spring-context-5.3.18.jar:5.3.18]
+	... 12 common frames omitted
+
+2022-08-07 18:13:05.177  INFO 27336 --- [main] com.DockerChallenges.DockerChallenges    : Starting DockerChallenges using Java 11.0.11 on tsn-a0418 with PID 27336 (D:\Project\New\TosanDockerChallenges\target\classes started by Karimi in D:\Project\New\TosanDockerChallenges)
+2022-08-07 18:13:05.183  INFO 27336 --- [main] com.DockerChallenges.DockerChallenges    : No active profile set, falling back to 1 default profile: "default"
+2022-08-07 18:13:06.962  INFO 27336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-08-07 18:13:06.978  INFO 27336 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-08-07 18:13:06.979  INFO 27336 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-08-07 18:13:07.137  INFO 27336 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-08-07 18:13:07.137  INFO 27336 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1891 ms
+2022-08-07 18:13:08.034 DEBUG 27336 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 10 mappings in 'requestMappingHandlerMapping'
+2022-08-07 18:13:08.412 DEBUG 27336 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2022-08-07 18:13:08.465 DEBUG 27336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/swagger-ui/] in 'viewControllerHandlerMapping'
+2022-08-07 18:13:08.494 DEBUG 27336 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /swagger-ui/**] in 'resourceHandlerMapping'
+2022-08-07 18:13:08.506 DEBUG 27336 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2022-08-07 18:13:08.798  INFO 27336 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-08-07 18:13:09.454  INFO 27336 --- [main] com.DockerChallenges.DockerChallenges    : Started DockerChallenges in 4.827 seconds (JVM running for 6.918)
+2022-08-07 18:14:17.686  INFO 27336 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-08-07 18:14:17.688  INFO 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-08-07 18:14:17.688 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2022-08-07 18:14:17.688 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2022-08-07 18:14:17.688 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2022-08-07 18:14:17.690 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@22ef68ef
+2022-08-07 18:14:17.691 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@59407c77
+2022-08-07 18:14:17.691 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2022-08-07 18:14:17.691  INFO 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2022-08-07 18:14:17.710 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/author", parameters={}
+2022-08-07 18:14:17.716 DEBUG 27336 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.DockerChallenges.controller.HelloController#authorName()
+2022-08-07 18:14:17.731  INFO 27336 --- [http-nio-8080-exec-1] c.D.controller.HelloController           : 2022-08-07T18:14:17+04:30
+2022-08-07 18:14:17.744 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'text/plain', given [*/*] and supported [text/plain, */*, text/plain, */*, application/json, application/*+json, application/json, application/*+json]
+2022-08-07 18:14:17.744 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing ["Mostafa Karimi"]
+2022-08-07 18:14:17.753 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:14:48.730 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/spring-security-rest/api/v2/api-docs", parameters={}
+2022-08-07 18:14:48.739 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/], classpath [resources/], classpath [static/], classpath [public/], ServletContext [/]]
+2022-08-07 18:14:48.743 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2022-08-07 18:14:48.743 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2022-08-07 18:14:48.746 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2022-08-07 18:14:48.748 DEBUG 27336 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2022-08-07 18:14:48.775 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2022-08-07 18:14:48.780 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2022-08-07 18:16:53.929 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/", parameters={}
+2022-08-07 18:16:53.931 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ParameterizableViewController [view="forward:/swagger-ui/index.html"]
+2022-08-07 18:16:53.933 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, application/xhtml+xml, image/webp, application/xml;q=0.9, */*;q=0.8]
+2022-08-07 18:16:53.933 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.servlet.view.InternalResourceView  : View name 'forward:', model {}
+2022-08-07 18:16:53.935 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.servlet.view.InternalResourceView  : Forwarding to [/swagger-ui/index.html]
+2022-08-07 18:16:53.936 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "FORWARD" dispatch for GET "/swagger-ui/index.html", parameters={}
+2022-08-07 18:16:53.938 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:53.944 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "FORWARD" dispatch, status 200
+2022-08-07 18:16:53.946 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.005 DEBUG 27336 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/springfox.css?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.007 DEBUG 27336 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui.css?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.009 DEBUG 27336 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.009 DEBUG 27336 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.010 DEBUG 27336 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-standalone-preset.js?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.011 DEBUG 27336 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/swagger-ui-bundle.js?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.011 DEBUG 27336 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.012 DEBUG 27336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/springfox.js?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.014 DEBUG 27336 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.015 DEBUG 27336 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.017 DEBUG 27336 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.018 DEBUG 27336 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.021 DEBUG 27336 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.024 DEBUG 27336 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.041 DEBUG 27336 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.306 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/swagger-ui/favicon-32x32.png?v=3.0.0", parameters={masked}
+2022-08-07 18:16:54.308 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/springfox-swagger-ui/]]
+2022-08-07 18:16:54.311 DEBUG 27336 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.341 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources/configuration/ui", parameters={}
+2022-08-07 18:16:54.341 DEBUG 27336 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+2022-08-07 18:16:54.342 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-08-07 18:16:54.367 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.UiConfiguration@5771cfcb]
+2022-08-07 18:16:54.384 DEBUG 27336 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.388 DEBUG 27336 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources/configuration/security", parameters={}
+2022-08-07 18:16:54.389 DEBUG 27336 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+2022-08-07 18:16:54.389 DEBUG 27336 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-08-07 18:16:54.394 DEBUG 27336 --- [http-nio-8080-exec-4] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.swagger.web.SecurityConfiguration@a25711b]
+2022-08-07 18:16:54.395 DEBUG 27336 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.399 DEBUG 27336 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/swagger-resources", parameters={}
+2022-08-07 18:16:54.399 DEBUG 27336 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+2022-08-07 18:16:54.400 DEBUG 27336 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json] and supported [application/json]
+2022-08-07 18:16:54.402 DEBUG 27336 --- [http-nio-8080-exec-5] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[springfox.documentation.swagger.web.SwaggerResource@3be65cd1]]
+2022-08-07 18:16:54.406 DEBUG 27336 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2022-08-07 18:16:54.468 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/v2/api-docs", parameters={}
+2022-08-07 18:16:54.468 DEBUG 27336 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to springfox.documentation.swagger2.web.Swagger2ControllerWebMvc#getDocumentation(String, HttpServletRequest)
+2022-08-07 18:16:54.660 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [application/json, */*] and supported [application/json, application/hal+json]
+2022-08-07 18:16:54.663 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [springfox.documentation.spring.web.json.Json@1daec156]
+2022-08-07 18:16:54.664 DEBUG 27336 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK

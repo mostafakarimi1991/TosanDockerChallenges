@@ -5,7 +5,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan({"com.DockerChallenges.controller"})
+@ComponentScan({"com.DockerChallenges.controller",
+        "com.DockerChallenges.config"})
 public class DockerChallenges {
     public static void main(String[] args) {
         SpringApplication application = new SpringApplication(DockerChallenges.class);
