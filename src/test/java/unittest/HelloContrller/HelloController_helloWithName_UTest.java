@@ -21,6 +21,6 @@ public class HelloController_helloWithName_UTest {
 
     @Test
     public void mustSayHelloToSpecialName(){
-        Assertions.assertEquals(new ResponseEntity<>("Hello Mostafa", HttpStatus.OK),helloController.helloWithName("Mostafa"));
+        Assertions.assertEquals(new ResponseEntity<>("Hello mostafaKarimi", HttpStatus.OK),helloController.helloWithName("MostaFa  kaRimi"));
     }
 }

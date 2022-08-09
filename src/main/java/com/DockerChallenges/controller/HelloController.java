@@ -1,6 +1,7 @@
 package com.DockerChallenges.controller;
 
 import lombok.extern.slf4j.Slf4j;
+import org.apache.commons.text.CaseUtils;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -23,7 +24,8 @@ public class HelloController {
     @PostMapping("helloworld")
     public ResponseEntity<String> helloWithName(@RequestParam String name) {
         log.info(OffsetDateTime.now().truncatedTo(ChronoUnit.SECONDS).toString());
-        String message = "Hello " + name;
+        String result = CaseUtils.toCamelCase(name,false,' ');
+        String message = "Hello " + result;
         return new ResponseEntity<String>(message, HttpStatus.OK);
     }
 
