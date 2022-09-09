@@ -24,4 +24,4 @@ Use below command to run docker image
 ***
 <p><b>Example of Run Application with docker</b></p>
 <p><i>docker build -t tosan-docker-challenges .</i></p>
-<p><i>docker run -p 9000:8080 -t tosan-docker-challenge</i></p>
+<p><i>docker run -p 9000:8080 -t tosan-docker-challenges</i></p>
