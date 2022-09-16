@@ -25,3 +25,17 @@ Use below command to run docker image
 <p><b>Example of Run Application with docker</b></p>
 <p><i>docker build -t tosan-docker-challenges .</i></p>
 <p><i>docker run -p 9000:8080 -t tosan-docker-challenges</i></p>
+
+
+***
+<p><b>Apply kubernetes file command</b></p>
+<p><i>kubectl apply -f ApplicationDeploymentFile.yaml</i></p>
+
+
+***
+<p><b>Commands for get deployment's file information</b></p>
+<p><i>kubectl get deployment -n test</i></p>
+<p><i>kubectl get pods -n test</i></p>
+<p><i>kubectl delete deployment tosan-docker-challenges -n test</i></p>
+<p><i> kubectl describe pods {podsName} -n test</i></p>
+
