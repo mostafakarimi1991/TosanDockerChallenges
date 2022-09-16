@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tosan-docker-challenges
+  namespace: test
+spec:
+  replicas: 3
+  revisionHistoryLimit: 3
+  selector:
+    matchLabels:
+      app: tosan-docker-challenges
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxSurge: 25%
+      maxUnavailable: 25%
+  template:
+    metadata:
+      labels:
+        app: tosan-docker-challenges
+    spec:
+      containers:
+      - name: tosan-docker-challenges
+        image: mostafakarimi1991/tosan-challenges:tagname
+        ports:
+        - containerPort: 80
+      terminationGracePeriodSeconds: 30
